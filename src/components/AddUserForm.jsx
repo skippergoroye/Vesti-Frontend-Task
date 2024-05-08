@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { nanoid } from "@reduxjs/toolkit";
 import { useDispatch } from "react-redux";
-import { addDetails } from "../features/posts/usersSlice";
+import { addDetails } from "../features/users/usersSlice";
 
 const skillsdata = [
   { id: "0", name: "Frontend Engineer" },

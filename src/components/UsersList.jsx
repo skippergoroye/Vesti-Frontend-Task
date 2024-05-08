@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { removeItem } from "../features/posts/usersSlice";
+import { removeItem } from "../features/users/usersSlice";
 
 
 const UsersList = () => {
