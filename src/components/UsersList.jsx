@@ -17,7 +17,7 @@ const UsersList = () => {
 
 
   const renderedUsers = reversedUsers.map((data) => (
-    <div className="article flex lg:gap-[500px]" key={data.id}>
+    <div className="article flex flex-col gap-4" key={data.id}>
       <div>
         <h2>FirstName: {data.firstName}</h2>
         <p>LastName: {data.lastName}</p>
