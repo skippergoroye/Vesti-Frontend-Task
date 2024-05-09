@@ -17,14 +17,14 @@ const UsersList = () => {
 
 
   const renderedUsers = reversedUsers.map((data) => (
-    <div className="article flex" key={data.id}>
+    <div className="article flex lg:gap-[500px]" key={data.id}>
       <div>
         <h2>FirstName: {data.firstName}</h2>
         <p>LastName: {data.lastName}</p>
         <p>Email Address: {data.email}</p>
         <p>Skills: {data.skills}</p>
       </div>
-      <div>
+      <div className="">
         <button className="bg-red-500 px-4 rounded-lg" onClick={() => handleRemoveItem(data.id)}>Remove</button>
       </div>
     </div>
